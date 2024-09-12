@@ -245,7 +245,7 @@ function updateGameArea() {
 
 /********** This function appends a timer to the HTML page and creates the end game popup when the tiemr expires **********/
 function gameTimer() {
-  let seconds = 31;
+  let seconds = 1;
   function tick() {
     let counter = document.getElementById("timer");
     seconds--;
